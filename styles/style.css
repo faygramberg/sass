@@ -1,0 +1,44 @@
+div.wrapper {
+  max-width: 100%;
+  margin: 0px; }
+  div.wrapper img {
+    position: absolute;
+    width: 100%;
+    z-index: -1; }
+  div.wrapper nav {
+    margin-right: 30px;
+    position: relative;
+    border: 2px solid black; }
+    div.wrapper nav div#logo a {
+      text-decoration: none; }
+    div.wrapper nav ul.navbar {
+      float: right;
+      display: block;
+      border: 2px solid black; }
+      div.wrapper nav ul.navbar li.navbar-items {
+        list-style: none;
+        display: inline;
+        padding: 5px; }
+        div.wrapper nav ul.navbar li.navbar-items a {
+          text-decoration: none; }
+
+div.container {
+  position: relative;
+  width: 70%;
+  border: 2px solid black;
+  margin: 0 auto;
+  top: 200px;
+  position: block; }
+  div.container div.menu-block {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    background-color: white;
+    position: inline;
+    float: left; }
+    div.container div.menu-block a {
+      text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
